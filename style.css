@@ -1,0 +1,117 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+    min-height: 120px;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #222937;
+    color: white;
+
+}
+
+div.logo img{
+    min-width: 100px;
+    min-height: 0px;
+    max-width: 100px;
+    max-height: 10%;
+    margin-right: auto;
+    border-radius: 300px;
+}
+
+.navbar div.nav-item {
+    font-size: 40px;
+    background-color:#808080;
+
+}
+
+div.cv_sec {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    padding: 40px;
+    gap: 30px;
+}
+div.work_exp {
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+}
+
+div.work_exp .entry_work {
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    padding: 20px;
+}
+
+div.entry_work div.entry{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.entry_work .date {
+    min-width: 40px ;
+    padding: 30px;
+
+}
+
+div.education {
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+}
+
+div.education .entry_education{
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    padding: 20px;
+}
+
+
+div.entry_education .date {
+    min-width: 40px ;
+    padding: 30px;
+
+}
+
+div.entry_education div.entry{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.skills {
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+}
+
+div.skills .skill_entry{
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    padding: 20px;
+    align-items: center;
+
+}
+
+div.skill_entry .skill_group {
+    min-width: 40px ;
+    padding: 30px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+
+}
